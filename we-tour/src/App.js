@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import './index.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          hellow there
-        </a>
-      </header>
-    </div>
+    <>
+      <div className='flex h-full flex-row w-full '>
+        <div className=' flex flex-col basis-1/2 border-2 bg-black'>
+          <div className='border-red-400  bg-red-500 basis-1/2 '>fff</div>
+          <div className='border-red-400  bg-blue-600 basis-1/4'>fff</div>
+          <div className='border-red-400 bg-slate-400 basis-1/4'>fff</div>
+        </div>
+
+        <div className=' flex flex-col basis-1/4 border-2 bg-black'>
+          <div className='border-red-400  bg-red-500 basis-1/2 '>fff</div>
+          <div className='border-red-400  bg-blue-600 basis-1/4'>fff</div>
+          <div className='border-red-400 bg-slate-400 basis-1/4'>fff</div>
+        </div>
+
+        <div className=' flex flex-col basis-1/4  border-2 bg-black'>
+          <div className='border-red-400  bg-red-500 basis-1/2 '>fff</div>
+          <div className='border-red-400  bg-blue-600 basis-1/4'>fff</div>
+          <div className='border-red-400 bg-slate-400 basis-1/4'>fff</div>
+        </div>
+      </div>
+    </>
   );
 }
 
